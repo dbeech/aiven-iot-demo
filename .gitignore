@@ -1,3 +1,5 @@
 env.sh
 .terraform*
 terraform.tfstate*
+creds
+venv

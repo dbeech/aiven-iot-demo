@@ -3,20 +3,11 @@ variable "project_name" {}
 variable "kafka_version" {}
 variable "service_cloud" {}
 variable "service_name_prefix" {}
-variable "service_plan_cassandra" {}
-variable "service_plan_flink" {}
 variable "service_plan_influxdb" {}
 variable "service_plan_kafka" {}
 variable "service_plan_kafka_connect" {}
-variable "service_plan_kafka_mm2" {}
-variable "service_plan_kafka_replica" {}
-variable "service_plan_elastic" {}
 variable "service_plan_grafana" {}
 variable "service_plan_m3db" {}
-variable "service_plan_mysql" {}
-variable "service_plan_opensearch" {}
-variable "service_plan_pg" {}
-variable "service_plan_redis" {}
 
 terraform {
   required_providers {
